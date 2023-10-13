@@ -1,8 +1,13 @@
+import Hello from "./hello";
 
 function App() {
   return (
-   <h1>hello basics
-   </h1>
+    <>
+    <Hello/>
+    <h1>hello basics
+    </h1>
+    
+    </>
   );
 }
 
