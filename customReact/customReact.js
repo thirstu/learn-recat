@@ -87,17 +87,31 @@
 // // }
 // // }
 
-let count =0;
-const counter=function(){
-    count++;
-    console.log(count);
-}
-const caller=()=>{
-    counter();
-    counter();
-    counter();
-    counter();
-    // console.log(count);
+// let count =0;
+// const counter=function(){
+//     count++;
+//     console.log(count);
+// }
+// const caller=()=>{
+//     counter();
+//     counter();
+//     counter();
+//     counter();
+//     // console.log(count);
 
-};
-caller();
+// };
+// caller();
+
+// const input=document.querySelector('#range');
+// console.log(input);
+
+const obj={
+    game:'mario',
+    food:["dal","chaval"],
+    plans:{
+        study:["math","science",'everything'],
+        exercise:['everything']
+    }
+}
+
+console.log(obj["plans"]["study"]);
