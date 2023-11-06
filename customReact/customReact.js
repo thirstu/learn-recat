@@ -114,4 +114,5 @@ const obj={
     }
 }
 
-console.log(obj["plans"]["study"]);
+console.log({0:"hello",...obj.food},obj);
+
